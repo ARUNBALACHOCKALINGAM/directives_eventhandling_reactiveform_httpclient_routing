@@ -15,7 +15,7 @@ export class IssuesListComponent implements OnInit {
   }
 
   // Implement deleteIssue method to delete the issue
-  deleteIssue() {
+  deleteIssue(id: any) {
   }
 
 }

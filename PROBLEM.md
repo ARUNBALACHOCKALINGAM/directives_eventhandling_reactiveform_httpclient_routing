@@ -18,7 +18,7 @@ Issue Tracker is to track the list of issues. These are the operations that can 
      
 ## TECH STACK
 
-- Angular8
+- Angular12
 - Jasmine
 - Protractor
 - json-server

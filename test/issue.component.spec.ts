@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IssueComponent } from '../src/app/issue/issue.component';
 import { HttpClientModule } from '@angular/common/http';
 import { of } from 'rxjs';
@@ -11,7 +11,7 @@ describe('IssueComponent', () => {
   let component: IssueComponent;
   let fixture: ComponentFixture<IssueComponent>;
   let issueService: IssueService;
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [ HttpClientModule, ReactiveFormsModule],
       declarations: [ IssueComponent ],
